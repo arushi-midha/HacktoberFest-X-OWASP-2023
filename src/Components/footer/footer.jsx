@@ -2,32 +2,32 @@ import "./footer.css";
 import owasp from "../../Assets/logo-owasp.png";
 function Footer() {
   return (
-    <footer class="footer-distributed">
-      <div class="footer-left">
+    <footer className="footer-distributed">
+      <div className="footer-left">
         <span>
           <img className="footerLogo" src={owasp}></img>
         </span>
       </div>
 
-      <div class="footer-center">
+      <div className="footer-center">
         <div>
           <p>
-            <span class="footer-center-span-text">Contact-Us</span>
+            <span className="footer-center-span-text">Contact-Us</span>
             <a href="owasptu@gmail.com"> owasptu@gmail.com </a>
             <br /> <a>General secretary : Sanya Gupta</a>
             <br />
             <a href="tel:+919674603907"> +91 7275522600</a>
           </p>
           <p>
-            <span class="footer-center-span-text">Our-Website</span>
+            <span className="footer-center-span-text">Our-Website</span>
             <a href="https://owasp.co.in/">owasp.co.in</a>
           </p>
         </div>
       </div>
 
-      <div class="footer-right">
-        <p class="footer-company-about">
-          <span class="footer-right-span">About the organization</span>
+      <div className="footer-right">
+        <p className="footer-company-about">
+          <span className="footer-right-span">About the organization</span>
           The team of OWASP Student Chapter, one of the gilt-edged coding
           society, involves ingenious mind solvers who are eager to make the
           world a better place to live in with their innovative techniques and
@@ -37,7 +37,7 @@ function Footer() {
           Join Us On The Following Platforms
         </span>{" "}
         <br />
-        <a href="https://github.com/OWASP-STUDENT-CHAPTER" target={"_blank"}>
+        <a href="https://github.com/OWASP-STUDENT-CHAPTER" target={"_blank"} rel="noreferrer">
           <img
             src="https://img.icons8.com/nolan/64/github.png"
             style={{
@@ -48,7 +48,7 @@ function Footer() {
             }}
           />
         </a>
-        <a href="https://discord.gg/nnZCPbxnZu" target={"_blank"}>
+        <a href="https://discord.gg/nnZCPbxnZu" target={"_blank"} rel="noreferrer">
           <img
             src="https://img.icons8.com/nolan/64/discord.png"
             style={{
@@ -62,6 +62,7 @@ function Footer() {
         <a
           href="https://www.linkedin.com/company/owasp-tiet/"
           target={"_blank"}
+          rel="noreferrer"
         >
           <img
             src="https://img.icons8.com/nolan/64/linkedin.png"
@@ -73,7 +74,7 @@ function Footer() {
             }}
           />
         </a>
-        <a href="https://www.instagram.com/owasp_tiet/" target={"_blank"}>
+        <a href="https://www.instagram.com/owasp_tiet/" target={"_blank"} rel="noreferrer">
           <img
             src="https://img.icons8.com/nolan/64/instagram-new.png"
             style={{
