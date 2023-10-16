@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,600;0,800;1,400;1,600;1,700&display=swap');
+
 .footer-distributed{
 	background: rgba(11, 6, 6, 0.874);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 14px poppins;
+	font: bold 14px Jetbrains Mono, monospace;
 	padding: 55px 50px;
 	display: flex;
 flex-direction: row;
@@ -29,7 +31,7 @@ align-items: center;
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Open Sans', cursive;
+	font-weight: bold;
 	margin: 0;
 }
 
@@ -166,7 +168,7 @@ align-items: center;
 @media (max-width: 880px) {
 
 	.footer-distributed{
-		font: bold 14px varino;
+		font-weight: bold;
 	}
 
 	.footer-distributed .footer-left,

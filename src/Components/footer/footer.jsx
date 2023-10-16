@@ -1,5 +1,6 @@
 import "./footer.css";
 import owasp from "../../Assets/logo-owasp.png";
+
 function Footer() {
   return (
     <footer className="footer-distributed">
