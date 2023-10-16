@@ -68,7 +68,7 @@ function App() {
 					<img src={owaspLogo} alt="OWASP logo" />
 				</div>
 				<div className="recruit">
-					<a href="/" class="discoButton">
+					<a href="/" className="discoButton">
 						<span>
 							Register for
 							<br />
@@ -87,7 +87,7 @@ function App() {
 					</div>
 					<MyButton>
 						<p className="about-content">
-							Hacktoberfest'23 marks the 10th edition of Hacktoberfest,
+							Hacktoberfest&apos;23 marks the 10th edition of Hacktoberfest,
 							organized by DigitalOcean, a month-long celebration of open-source
 							coding and software Team OWASP provides five open source projects
 							to which you can display and contribute - Web-Dev Tasks, Tech
@@ -98,7 +98,7 @@ function App() {
 						</p>
 					</MyButton>
 				</div>
-				<a href="/pen/" class="discoButton RegistHacto">
+				<a href="/pen/" className="discoButton RegistHacto">
 					<span>Register for HacktoberFest</span>
 				</a>
 			</section>
@@ -136,23 +136,23 @@ function App() {
 			<section className="sponsors">
 				<div className="sponsorsDiv">
 					<div className="about-heading">Our Past Sponsors</div>
-					<div class="cards">
-						<figure class="card2">
+					<div className="cards">
+						<figure className="card2">
 							<img src={jio} style={jiostyle}></img>
 						</figure>
-						<figure class="card2">
+						<figure className="card2">
 							<img src={git} />
 						</figure>
-						<figure class="card2">
+						<figure className="card2">
 							<img src={mlh} />
 						</figure>
-						<figure class="card2">
+						<figure className="card2">
 							<img src={postman} />
 						</figure>
-						<figure class="card2">
+						<figure className="card2">
 							<img src={polygon} />
 						</figure>
-						<figure class="card2">
+						<figure className="card2">
 							<img src={redbull} />
 						</figure>
 					</div>
