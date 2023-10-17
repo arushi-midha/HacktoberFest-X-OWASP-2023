@@ -4,4 +4,6 @@
     margin-right: 24px;
     border-top: 2px dashed #5a545c;
     border-bottom: 2px dashed #5a545c;
+    border-left: 0px;
+    border-right: 0px;
 }
