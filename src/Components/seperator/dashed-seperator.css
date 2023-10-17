@@ -1,0 +1,7 @@
+.dashed-seperator {
+    padding: 0.2em;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-top: 2px dashed #5a545c;
+    border-bottom: 2px dashed #5a545c;
+}
