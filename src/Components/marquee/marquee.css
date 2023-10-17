@@ -1,0 +1,14 @@
+    .hackto-marquee {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .marquee-content{
+        color: #efedef;
+        font-weight: 800;
+        font-style: italic;
+        font-size: 4vw;
+        text-transform: uppercase;
+        overflow: hidden;
+        white-space: nowrap;
+    }
