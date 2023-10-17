@@ -108,6 +108,7 @@
   display: flex;
   justify-content: end;
   font-size: 200%;
+  color: #fff;
 }
 
 /* disco button start */
@@ -171,6 +172,8 @@
   align-items: center;
   height: fit-content;
   justify-content: space-evenly;
+  margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 /* repos section */
@@ -184,7 +187,7 @@
 
 /* open source heading */
 .openSrc {
-  /* margin-top: 5%; */
+  margin-bottom: 32px;
 }
 
 

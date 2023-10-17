@@ -1,11 +1,21 @@
-import './App.css';
-import { useState, useEffect, useRef } from 'react';
-import hackLogo from './Assets/hacktoberfest-logo.png';
-import owaspLogo from './Assets/logo-owasp.png';
-import MyButton from './Components/button/button.jsx';
-import 'animate.css';
+import { useRef } from 'react';
+// import { useState, useEffect, useRef } from 'react';
 import { AiFillDownCircle } from 'react-icons/ai';
-import Back from './Components/background/background';
+
+// import components
+import Footer from './Components/footer/footer';
+// import Back from './Components/background/background';
+import MyButton from './Components/button/button.jsx';
+import HacktoMarquee from './Components/marquee/marquee';
+import DashedSeperator from './Components/seperator/dashed-seperator';
+import PixelSeperator from './Components/seperator/pixel-seperator';
+// import PixelKeyframe from './Components/background/pixelkeyframe';
+
+// import CSS
+import 'animate.css';
+import './App.css';
+
+// import images
 import pc from './Assets/pc.png';
 import Repo from './Components/repo-card/repo';
 import contribute from './Assets/contribute.png';
@@ -17,29 +27,30 @@ import mlh from './Assets/sponsors/MLH.png';
 import postman from './Assets/sponsors/Postman.png';
 import polygon from './Assets/sponsors/polygon.png';
 import redbull from './Assets/sponsors/redbull.png';
-import Footer from './Components/footer/footer';
+import hackLogo from './Assets/hacktoberfest-logo.png';
+import owaspLogo from './Assets/logo-owasp.png';
 
 function App() {
-	const [binaryStream, setBinaryStream] = useState(
-		generateRandomBinaryStream()
-	);
+	// const [binaryStream, setBinaryStream] = useState(
+	// 	generateRandomBinaryStream()
+	// );
 
 	// Function to generate a random binary stream
-	function generateRandomBinaryStream() {
-		return Array.from({ length: window.innerWidth }, () =>
-			Math.random() <= 0.5 ? '0' : '1'
-		).join('');
-	}
+	// function generateRandomBinaryStream() {
+	// 	return Array.from({ length: window.innerWidth }, () =>
+	// 		Math.random() <= 0.5 ? '0' : '1'
+	// 	).join('');
+	// }
 
-	useEffect(() => {
-		const intervalId = setInterval(() => {
-			setBinaryStream(generateRandomBinaryStream());
-		}, 150);
+	// useEffect(() => {
+	// 	const intervalId = setInterval(() => {
+	// 		setBinaryStream(generateRandomBinaryStream());
+	// 	}, 150);
 
-		return () => {
-			clearInterval(intervalId);
-		};
-	}, []);
+	// 	return () => {
+	// 		clearInterval(intervalId);
+	// 	};
+	// }, []);
 
 	const ref = useRef(null);
 
@@ -54,6 +65,7 @@ function App() {
 	return (
 		<>
 			{/* <Back /> */}
+			{/* <PixelKeyframe /> */}
 			<section className="hero">
 				{/* <div className='binStream'>
         {binaryStream}
@@ -80,6 +92,9 @@ function App() {
 					<AiFillDownCircle />
 				</div>
 			</section>
+
+			<PixelSeperator />
+
 			<section className="about" ref={ref}>
 				<div className="about-box">
 					<div className="head">
@@ -102,6 +117,8 @@ function App() {
 					<span>Register for HacktoberFest</span>
 				</a>
 			</section>
+
+			<DashedSeperator />
 
 			<section className="projects">
 				<h3 className="about-heading openSrc">Our Open Source Projects</h3>
@@ -133,6 +150,8 @@ function App() {
 				</div>
 			</section>
 
+			<DashedSeperator />
+
 			<section className="sponsors">
 				<div className="sponsorsDiv">
 					<div className="about-heading">Our Past Sponsors</div>
@@ -159,6 +178,9 @@ function App() {
 				</div>
 			</section>
 
+			<PixelSeperator />
+			<HacktoMarquee />
+			<PixelSeperator />
 			<Footer />
 		</>
 	);
