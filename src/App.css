@@ -382,10 +382,13 @@
     flex-direction: column;
 
   }
+  .discoButton>span{
+    font-size: 1.0rem;
+  }
 
   .about-heading {
     font-size: 30px;
-    margin-top: 600px;
+    
   }
 
 
