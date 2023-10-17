@@ -9,9 +9,9 @@
 	font: bold 14px Jetbrains Mono, monospace;
 	padding: 55px 50px;
 	display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 .footer-distributed .footer-left,
@@ -123,6 +123,7 @@ align-items: center;
 /* Footer Right */
 
 .footer-distributed .footer-right{
+	margin-right: 8vw;
 	width: 20%;
 }
 

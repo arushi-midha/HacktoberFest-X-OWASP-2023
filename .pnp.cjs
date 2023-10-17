@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-refresh", "virtual:5813c472b166081270f19413c61f6b96b51033e5fb60f6d4f626a7906ebe94c28d7d2040f76c7521969b2b258c5408076877e11bd0cd5bb065615140587e2189#npm:0.4.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:5813c472b166081270f19413c61f6b96b51033e5fb60f6d4f626a7906ebe94c28d7d2040f76c7521969b2b258c5408076877e11bd0cd5bb065615140587e2189#npm:18.2.0"],\
+            ["react-fast-marquee", "virtual:5813c472b166081270f19413c61f6b96b51033e5fb60f6d4f626a7906ebe94c28d7d2040f76c7521969b2b258c5408076877e11bd0cd5bb065615140587e2189#npm:1.6.2"],\
             ["react-icons", "virtual:5813c472b166081270f19413c61f6b96b51033e5fb60f6d4f626a7906ebe94c28d7d2040f76c7521969b2b258c5408076877e11bd0cd5bb065615140587e2189#npm:4.11.0"],\
             ["vite", "virtual:5813c472b166081270f19413c61f6b96b51033e5fb60f6d4f626a7906ebe94c28d7d2040f76c7521969b2b258c5408076877e11bd0cd5bb065615140587e2189#npm:4.4.11"]\
           ],\
@@ -1845,6 +1846,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-refresh", "virtual:5813c472b166081270f19413c61f6b96b51033e5fb60f6d4f626a7906ebe94c28d7d2040f76c7521969b2b258c5408076877e11bd0cd5bb065615140587e2189#npm:0.4.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:5813c472b166081270f19413c61f6b96b51033e5fb60f6d4f626a7906ebe94c28d7d2040f76c7521969b2b258c5408076877e11bd0cd5bb065615140587e2189#npm:18.2.0"],\
+            ["react-fast-marquee", "virtual:5813c472b166081270f19413c61f6b96b51033e5fb60f6d4f626a7906ebe94c28d7d2040f76c7521969b2b258c5408076877e11bd0cd5bb065615140587e2189#npm:1.6.2"],\
             ["react-icons", "virtual:5813c472b166081270f19413c61f6b96b51033e5fb60f6d4f626a7906ebe94c28d7d2040f76c7521969b2b258c5408076877e11bd0cd5bb065615140587e2189#npm:4.11.0"],\
             ["vite", "virtual:5813c472b166081270f19413c61f6b96b51033e5fb60f6d4f626a7906ebe94c28d7d2040f76c7521969b2b258c5408076877e11bd0cd5bb065615140587e2189#npm:4.4.11"]\
           ],\
@@ -3012,6 +3014,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "packagePeers": [\
             "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-fast-marquee", [\
+        ["npm:1.6.2", {\
+          "packageLocation": "./.yarn/cache/react-fast-marquee-npm-1.6.2-c4f291fad9-5bdd2115f0.zip/node_modules/react-fast-marquee/",\
+          "packageDependencies": [\
+            ["react-fast-marquee", "npm:1.6.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:5813c472b166081270f19413c61f6b96b51033e5fb60f6d4f626a7906ebe94c28d7d2040f76c7521969b2b258c5408076877e11bd0cd5bb065615140587e2189#npm:1.6.2", {\
+          "packageLocation": "./.yarn/__virtual__/react-fast-marquee-virtual-72f153c829/0/cache/react-fast-marquee-npm-1.6.2-c4f291fad9-5bdd2115f0.zip/node_modules/react-fast-marquee/",\
+          "packageDependencies": [\
+            ["react-fast-marquee", "virtual:5813c472b166081270f19413c61f6b96b51033e5fb60f6d4f626a7906ebe94c28d7d2040f76c7521969b2b258c5408076877e11bd0cd5bb065615140587e2189#npm:1.6.2"],\
+            ["@types/react", "npm:18.2.25"],\
+            ["@types/react-dom", "npm:18.2.11"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:5813c472b166081270f19413c61f6b96b51033e5fb60f6d4f626a7906ebe94c28d7d2040f76c7521969b2b258c5408076877e11bd0cd5bb065615140587e2189#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
             "react"\
           ],\
           "linkType": "HARD"\
