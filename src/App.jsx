@@ -147,6 +147,18 @@ function App() {
 						etc., and figuring out the different ways these elements can be
 						created by using various libraries and frameworks.
 					</Repo>
+					<Repo src={branch} alt="repo1" title="lorem ipsum" link="/">
+						this web-app is aimed at frontend developers who wish to improve
+						their skills by practicing coding UI elements like buttons, forms,
+						etc., and figuring out the different ways these elements can be
+						created by using various libraries and frameworks.
+					</Repo>
+					<Repo src={contribute} alt="repo1" title="lorem ipsum" link="/">
+						this web-app is aimed at frontend developers who wish to improve
+						their skills by practicing coding UI elements like buttons, forms,
+						etc., and figuring out the different ways these elements can be
+						created by using various libraries and frameworks.
+					</Repo>
 				</div>
 			</section>
 
